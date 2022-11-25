@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.d1f545ae.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.80c76175.css",
+    "main.js": "/static/js/main.38b4f707.js",
+    "static/media/aljayDSC_0079.jpg": "/static/media/aljayDSC_0079.f27c61008b0a5136e3cf.jpg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.d1f545ae.js.map": "/static/js/main.d1f545ae.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.80c76175.css.map": "/static/css/main.80c76175.css.map",
+    "main.38b4f707.js.map": "/static/js/main.38b4f707.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d1f545ae.js"
+    "static/css/main.80c76175.css",
+    "static/js/main.38b4f707.js"
   ]
 }
