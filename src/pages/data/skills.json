@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "PHP",
+        "description": "",
+        "percentage": "85",
+        "the_excerpt": "8 years of experience using PHP and PHP Framework such as Laravel, Yii, Codeigniter etc."
+    },
+    {
+        "id": 2,
+        "name": "Database",
+        "description": "",
+        "percentage": "75",
+        "the_excerpt": "Mostly I am using MySQL with my previus projects and there are instance we use mongoDB and other RDBMS"
+    },
+    {
+        "id": 3,
+        "name": "JavaScript",
+        "description": "",
+        "percentage": "70",
+        "the_excerpt": "Native JavaScript, JQuery, ReactJs and familiar with vue and Angular."
+    },
+    {
+        "id": 4,
+        "name": "HTML",
+        "description": "",
+        "percentage": "75",
+        "the_excerpt": "HTML, HTML Elements, Browser Support, Canvas and some HTML5 features"
+    },
+    {
+        "id": 5,
+        "name": "CSS",
+        "description": "",
+        "percentage": "85",
+        "the_excerpt": "Responssive Design, CSS Framework like Bootstrap, Foundation, Skeleton and familiar with Tailwind CSS"
+    },
+    {
+        "id": 6,
+        "name": "GIT",
+        "description": "",
+        "percentage": "70",
+        "the_excerpt": "Github, Bitbucket and SVN"
+    }
+]

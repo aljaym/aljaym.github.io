@@ -29,7 +29,7 @@ const Homepage = () => {
                             Full stack developer/Web developer with years of experience, Knowledgeable in the user interface, deployment, and debugging processes. Bringing expertise in planning, Database design, installation, development, testing, and maintenance of a website. Equipped with a diverse and promising skill set. Proficient in an assortment of technologies, including PHP, Javascript, HTML, CSS, and MySQL. Capable of self-manage during independent projects, as well as collaborating in a team.
                         </p>
                         </div>
-                        <a href="#section3" className="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                        <a target="_blank" href="https://ph.linkedin.com/in/aljay-mallari-772150110" className="btn btn-primary btn-xl page-scroll">Find Out More</a>
                     </Col>
                 </Row>
             </Container>
