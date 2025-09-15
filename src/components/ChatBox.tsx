@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, Send, X, Minimize2, Bot, User, Loader } from 'lucide-react';
-import { sendChatMessage, getProviderStatus, ChatMessage } from '../config/backendApi';
+import { sendChatMessage, ChatMessage } from '../config/backendApi';
 
 interface Message {
   id: string;
