@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://aljaym.github.io/",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.7.0",
     "@testing-library/react": "^16.3.0",
@@ -12,6 +13,9 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.540.0",
+    "openai": "^5.13.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
@@ -45,6 +49,10 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
   }
 }

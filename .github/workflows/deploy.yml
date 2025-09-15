@@ -2,7 +2,7 @@ name: Deploy React App
 
 on:
   push:
-    branches: [ "2025" ]
+    branches: [ "master" ]
 
 jobs:
   build-and-deploy:
