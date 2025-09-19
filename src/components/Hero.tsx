@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, Mail, ArrowDown, Code, Database, Globe, Zap } from 'lucide-react';
+import { Mail, ArrowDown, Code, Database, Globe, Zap } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
