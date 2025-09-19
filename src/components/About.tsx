@@ -19,7 +19,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="w-80 h-80 mx-auto rounded-full overflow-hidden shadow-lg border-4 border-white">
                 <img
-                  src="/images/profile.jpg"
+                  src="/aljay.jpg"
                   alt="Aljay Q. Mallari - Full Stack Developer"
                   className="w-full h-full object-cover"
                   onError={(e) => {

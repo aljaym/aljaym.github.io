@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, ArrowUp } from 'lucide-react';
+import ContactInfo from './ContactInfo';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -62,11 +63,11 @@ const Footer: React.FC = () => {
           {/* Contact & Social */}
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white">Get In Touch</h4>
-            <div className="space-y-2 text-gray-300">
-              <p>mallarialjay07@gmail.com</p>
-              <p>+639452063639</p>
-              <p>Pampanga, Philippines</p>
-            </div>
+            <ContactInfo 
+              variant="footer" 
+              showLabels={false}
+              className="text-gray-300"
+            />
             <div className="pt-2">
               <p className="text-sm text-gray-400">
                 Available for freelance opportunities and full-time positions
@@ -79,21 +80,6 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm">
             © {new Date().getFullYear()} Aljay Q. Mallari. All rights reserved.
-          </div>
-          
-          <div className="flex items-center gap-6 mt-4 md:mt-0">
-            <a 
-              href="/privacy" 
-              className="text-gray-400 hover:text-primary-400 text-sm transition-colors duration-200"
-            >
-              Privacy Policy
-            </a>
-            <a 
-              href="/terms" 
-              className="text-gray-400 hover:text-primary-400 text-sm transition-colors duration-200"
-            >
-              Terms of Service
-            </a>
           </div>
         </div>
       </div>

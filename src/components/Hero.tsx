@@ -53,14 +53,6 @@ const Hero: React.FC = () => {
               <Mail size={20} />
               Get In Touch
             </a>
-            <a 
-              href="/resume.pdf" 
-              className="btn-secondary flex items-center gap-2"
-              download
-            >
-              <Download size={20} />
-              Download Resume
-            </a>
           </div>
 
           {/* Scroll Indicator */}

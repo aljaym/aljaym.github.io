@@ -1,43 +1,8 @@
-import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Linkedin, Github, Eye, EyeOff } from 'lucide-react';
+import React from 'react';
+import { Linkedin, Github } from 'lucide-react';
+import ContactInfo from './ContactInfo';
 
 const Contact: React.FC = () => {
-  const [showEmail, setShowEmail] = useState(false);
-  const [showPhone, setShowPhone] = useState(false);
-
-  const contactInfo = [
-    {
-      icon: <Mail size={24} className="text-primary-600" />,
-      title: 'Email',
-      maskedValue: 'mallarixxxxxx@xxx.xxx',
-      realValue: 'mallarialjay07@gmail.com',
-      link: 'mailto:mallarialjay07@gmail.com',
-      isPrivate: true,
-      isVisible: showEmail,
-      toggleVisibility: () => setShowEmail(!showEmail)
-    },
-    {
-      icon: <Phone size={24} className="text-primary-600" />,
-      title: 'Phone',
-      maskedValue: '+639xxxxxxxx9',
-      realValue: '+639452063639',
-      link: 'tel:+639452063639',
-      isPrivate: true,
-      isVisible: showPhone,
-      toggleVisibility: () => setShowPhone(!showPhone)
-    },
-    {
-      icon: <MapPin size={24} className="text-primary-600" />,
-      title: 'Location',
-      maskedValue: 'San Nicolas 1 Magalang, Pampanga, Philippines',
-      realValue: 'San Nicolas 1 Magalang, Pampanga, Philippines',
-      link: undefined,
-      isPrivate: false,
-      isVisible: true,
-      toggleVisibility: () => {}
-    }
-  ];
-
   const socialLinks = [
     {
       name: 'LinkedIn',
@@ -70,46 +35,7 @@ const Contact: React.FC = () => {
             {/* Contact Information */}
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-gray-900">Contact Information</h3>
-              
-              <div className="space-y-4">
-                {contactInfo.map((info, index) => (
-                  <div key={index} className="flex items-start gap-4">
-                    <div className="flex-shrink-0 mt-1">
-                      {info.icon}
-                    </div>
-                    <div className="flex-1">
-                      <h4 className="font-medium text-gray-900">{info.title}</h4>
-                      <div className="flex items-center gap-2">
-                        {info.isPrivate ? (
-                          <>
-                            <span className="text-gray-600">
-                              {info.isVisible ? info.realValue : info.maskedValue}
-                            </span>
-                            <button
-                              onClick={info.toggleVisibility}
-                              className="p-1 text-gray-400 hover:text-primary-600 transition-colors duration-200"
-                              title={info.isVisible ? 'Hide contact info' : 'Show contact info'}
-                            >
-                              {info.isVisible ? <EyeOff size={16} /> : <Eye size={16} />}
-                            </button>
-                            {info.isVisible && info.link && (
-                              <a
-                                href={info.link}
-                                className="ml-2 text-primary-600 hover:text-primary-700 transition-colors duration-200 text-sm"
-                                title={`Contact via ${info.title.toLowerCase()}`}
-                              >
-                                Contact
-                              </a>
-                            )}
-                          </>
-                        ) : (
-                          <span className="text-gray-600">{info.realValue}</span>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
+              <ContactInfo variant="default" />
             </div>
 
             {/* Social Links */}

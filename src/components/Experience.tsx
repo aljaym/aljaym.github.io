@@ -19,7 +19,7 @@ const Experience: React.FC = () => {
       title: 'Full Stack Developer',
       company: 'Kinetic Innovative Staffing Services LLC',
       location: 'Remote',
-      period: 'July 2023 - Present',
+      period: 'July 2023 - Sept 2025',
       description: [
         'Designed and developed custom modules and components using Laravel (backend) and React (frontend)',
         'Developed and optimized features based on product owner requirements, significantly enhancing user experience',
@@ -122,11 +122,11 @@ const Experience: React.FC = () => {
               }`}
             >
               {/* Current Role Badge */}
-              {index === 0 && (
+              {/* {index === 0 && (
                 <div className="absolute -top-3 left-6 bg-primary-600 text-white px-3 py-1 rounded-full text-sm font-medium">
                   Current Role
                 </div>
-              )}
+              )} */}
 
               <div className="grid md:grid-cols-3 gap-6">
                 {/* Left Column - Company Info */}
